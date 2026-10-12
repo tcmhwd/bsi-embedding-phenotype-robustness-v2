@@ -1,0 +1,19 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+
+# Real outputs / secrets a future re-runner must not accidentally commit
+out/
+logs/
+model_cache/
+.env
+.env.*
+.secrets/
+*.pem
+*.key
+*.p12
+*.npy
+*.npz
+*.parquet
+*.pkl

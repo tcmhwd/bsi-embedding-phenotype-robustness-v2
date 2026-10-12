@@ -1,0 +1,13 @@
+{
+  "_source": "PRESPEC_stress_criteria.md (.superpowers/sdd/, internal audit pass, 2026-09-05) section 3, copied verbatim. S3 is deliberately omitted: out of scope for both consumers of this file (22a_ecoli_common.py's Task A battery covers S1/S2/S4/S5 only per its task brief; 20d_task2_extended_lookup.py recomputes only the S6 verdict).",
+  "_consumers": [
+    "scripts/22a_ecoli_common.py (THRESHOLDS -- S1/S2/S4/S5, read by 22e_ecoli_aggregate.py)",
+    "scripts/20d_task2_extended_lookup.py (S6 -- F1_PASS_MIN/F1_MARGIN_OVER_LOOKUP/S6_MIN_ENCODERS_PASSING)"
+  ],
+  "_note": "Extracted verbatim from the two scripts' own hard-coded values (AUDIT_3 N9 / AUDIT_4 M6) -- no threshold value was changed by this extraction.",
+  "S1": {"j_seed_mean_min": 0.75, "j_seed_p05_min": 0.50, "j_thread24_min": 0.75},
+  "S2": {"jaccard_mean_min": 0.75, "frac_dissolved_max": 0.20, "coassign_mean_min": 0.75},
+  "S4": {"t_abs_min": 0.50, "t_rel_frac_of_null_median_min": 0.80},
+  "S5": {"t_abs_min": 0.50, "t_rel_frac_of_null_median_min": 0.80},
+  "S6": {"f1_min": 0.60, "f1_margin_over_lookup": 0.10, "min_encoders_passing": 2}
+}
