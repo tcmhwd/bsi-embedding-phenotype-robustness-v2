@@ -393,10 +393,10 @@ See the manuscript's Data availability statement for details.
 If you use this code, please cite the manuscript (citation to be added once
 the DOI is assigned) and the archived release of this repository:
 
-> tcmhwd. (2026). *bsi-embedding-phenotype-robustness* (v2.0.0) [Code].
-> Zenodo. https://doi.org/10.5281/zenodo.XXXXXXX <!-- TODO: fill in the new
-> Zenodo DOI once v2 is archived. The v1 release and its Zenodo record have
-> been deleted and should not be cited; this v2 release supersedes it. -->
+> tcmhwd. (2026). *bsi-embedding-phenotype-robustness-v2* (v1.0.0) [Code].
+> Zenodo. https://doi.org/10.5281/zenodo.23307988
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23307988.svg)](https://doi.org/10.5281/zenodo.23307988)
 
 ## License
 
